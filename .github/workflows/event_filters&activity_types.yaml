@@ -4,6 +4,8 @@ on:
         types: [opened,closed,reopened]
         branches:
             - main
+            # anshual
+            # - feature/*
 jobs:
     echo:
         runs-on: ubuntu-latest
